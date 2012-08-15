@@ -15,7 +15,7 @@ gem 'inherited_resources'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
-
+  gem 'bootstrap-sass'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer'
 
@@ -28,6 +28,8 @@ gem 'jquery-rails'
 group :development, :test do
 	gem 'rspec-rails'
 	gem 'guard-rspec'
+	gem 'simplecov', :require => false
+	gem 'pry'
 end
 
 group :test do
@@ -36,6 +38,8 @@ group :test do
 	gem 'capybara'
 	gem 'spork'
 	gem 'guard-spork'
+	gem 'database_cleaner'
+	gem 'rb-fsevent'
 end	
 
 # To use ActiveModel has_secure_password
