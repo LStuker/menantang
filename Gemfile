@@ -23,13 +23,18 @@ end
 
 gem 'jquery-rails'
 
+
 group :development, :test do
 	gem 'rspec-rails'
-	gem 'spork'
 	gem 'guard-rspec'
-	gem 'guard-spork'
+end
+
+group :test do
 	gem 'factory_girl_rails'
 	gem 'capistrano'
+	gem 'capybara'
+	gem 'spork'
+	gem 'guard-spork'
 end	
 
 # To use ActiveModel has_secure_password
