@@ -44,7 +44,8 @@ end
 
 gem 'simple_form'
 
-
+# Auth
+gem 'devise'
 
 
 
