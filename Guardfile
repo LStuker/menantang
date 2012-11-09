@@ -31,4 +31,4 @@ guard 'rspec', :version => 2, :all_after_pass => false, :cli => '--drb' do
   watch(%r{^app/views/(.+)/}) do |m|
     "spec/requests/#{m[1].singularize}_pages_spec.rb"
   end
-
+end
