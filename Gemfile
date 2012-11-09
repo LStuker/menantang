@@ -7,6 +7,7 @@ gem 'rails', '3.2.1'
 
 gem 'sqlite3'
 gem 'haml'
+gem 'slim'
 gem 'json'
 gem 'inherited_resources'
 
@@ -30,6 +31,7 @@ group :development, :test do
 	gem 'guard-rspec'
 	gem 'simplecov', :require => false
 	gem 'pry'
+	gem 'haml2slim'
 end
 
 group :test do
