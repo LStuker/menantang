@@ -42,6 +42,7 @@ group :test do
 	gem 'guard-spork'
 	gem 'database_cleaner'
 	gem 'rb-fsevent'
+	gem 'growl'
 end	
 
 gem 'simple_form'
